@@ -1,0 +1,29 @@
+.header-flex{
+    background-color: #464655;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*width: 200vh;*/
+    }
+    
+    .header-flex a{
+        color: #B7B6C1;
+        text-decoration: none;
+    }
+    
+    .img-logo{
+        width: 150px;
+        margin: 0px;
+    
+    }
+    
+    .header-flex ul{
+    
+        display: flex;
+        list-style: none;    
+        /*width: 100vw;*/
+    }
+    
+    .header-flex li{
+        margin: 1rem;
+    }

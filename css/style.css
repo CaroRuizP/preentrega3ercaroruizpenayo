@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Caveat:wght@600&family=Poppins:wght@200;300;400;500&display=swap");
+.header-flex {
+  background-color: #464655;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*width: 200vh;*/ }
+
+.header-flex a {
+  color: #B7B6C1;
+  text-decoration: none; }
+
+.img-logo {
+  width: 150px;
+  margin: 0px; }
+
+.header-flex ul {
+  display: flex;
+  list-style: none;
+  /*width: 100vw;*/ }
+
+.header-flex li {
+  margin: 1rem; }
+
+/* colores
+Paleta de Colore
+
+Azul Oscuro #464655
+Gris #94958B
+Celeste 1 #B7B6C1
+Celeste 2 #D5CFE1
+Clarito #EDDFEF
+*/
+/* font-family: 'Poppins', sans-serif; */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Poppins', sans-serif; }
