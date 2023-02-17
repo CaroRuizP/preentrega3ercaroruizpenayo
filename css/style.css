@@ -15,6 +15,9 @@
   align-items: center;
   /*width: 200vh;*/ }
 
+.fondomenu div {
+  background-color: #464655; }
+
 .header-flex a {
   color: #B7B6C1;
   text-decoration: none; }
@@ -45,6 +48,9 @@ main {
   color: #464655;
   position: relative;
   top: 81%; }
+
+.navbar-nav .nav-link.active, .navbar-nav .show.nav-link {
+  color: #ffffff; }
 
 /*Footer*/
 .footer {
