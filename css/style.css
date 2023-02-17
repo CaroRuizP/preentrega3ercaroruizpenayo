@@ -22,6 +22,64 @@
 .header-flex li {
   margin: 1rem; }
 
+/*CONTENIDO PRINCIPAL*/
+main {
+  background-color: #e8e7ed; }
+
+.banner-hero {
+  background-image: url("../recursos/img-hero.jpeg");
+  height: 70vh;
+  background-size: cover; }
+
+.banner-hero h1 {
+  text-align: center;
+  color: #464655;
+  position: relative;
+  top: 81%; }
+
+/*Footer*/
+.footer {
+  background-color: #B7B6C1;
+  text-align: center;
+  padding: 1rem; }
+
+.footer p {
+  text-align: center; }
+
+.footer a {
+  color: black; }
+
+@media (min-width: 768px) {
+  .header-flex {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem; } }
+
+.nosotros {
+  text-align: center;
+  padding-top: 3rem;
+  height: 30vw; }
+
+.nos-h1 {
+  margin: 1rem; }
+
+.producto {
+  width: 50vw;
+  text-align: center;
+  margin: 2px;
+  font-size: 15px;
+  margin-top: 1rem; }
+
+.producto img {
+  width: 40vw; }
+
+/*GRILLA DE PRODUCTOS*/
+.productos-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-around;
+  margin-top: 3rem; }
+
 /* colores
 Paleta de Colore
 
