@@ -1,11 +1,6 @@
 
-$color-oscuro:#464655;
-$color-gris:#94958B;
-$color-celeste1:#B7B6C1;
-$color-celeste2:#D5CFE1;
-$color-clarito:#EDDFEF;
-
-
+@import './sections/colors';
+@import './sections/reset';
 @import './sections/header';
 @import './sections/main';
 @import './sections/nav';
@@ -13,23 +8,6 @@ $color-clarito:#EDDFEF;
 @import './sections/nosotros';
 @import './sections/productos';
 
-
-
-/* colores
-Paleta de Colore
-
-Azul Oscuro #464655
-Gris #94958B
-Celeste 1 #B7B6C1
-Celeste 2 #D5CFE1
-Clarito #EDDFEF
-*/
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Caveat:wght@600&family=Poppins:wght@200;300;400;500&display=swap');
 /* font-family: 'Poppins', sans-serif; */
-
-*{
-    padding: 0px;
-    margin: 0px;
-    font-family: 'Poppins', sans-serif;
-}
 
