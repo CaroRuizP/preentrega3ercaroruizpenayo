@@ -1,12 +1,12 @@
 /*CONTENIDO PRINCIPAL*/
 
 main{
-    background-color:#e8e7ed;
+    background-color: $color-clarito;
 }
 
 .banner-hero{
     background-image: url('../recursos/img-hero.jpeg');
-    height: 70vh;
+    height: 50vh;
     background-size: cover;
 }
 
