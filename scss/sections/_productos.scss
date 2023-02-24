@@ -25,11 +25,26 @@ margin-top: 1rem;
 
 }
 
+.tex-grid{
+    width: 20vw;
+}
+
 @media (max-width: 768px){
 
     .producto img{
         width: 40vw;
         height: 40vw;
     
+    }
+
+    p{
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 12.5px;
+    }
+
+    h2{
+        font-size: 18px;
+
     }
 }

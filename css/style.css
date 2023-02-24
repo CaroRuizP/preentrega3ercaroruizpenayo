@@ -44,20 +44,21 @@ main {
 
 .banner-hero {
   background-image: url("../recursos/img-hero.jpeg");
-  height: 50vh;
+  height: 70vh;
   background-size: cover; }
 
 .banner-hero h1 {
   text-align: center;
-  color: #464655;
+  color: white;
   position: relative;
-  top: 81%; }
+  top: 50%;
+  text-shadow: -1px 0 black, 0 1px black; }
 
 h2 {
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
   font-family: inherit;
-  font-weight: 300;
+  font-weight: 600;
   line-height: 1.1;
   color: inherit; }
 
@@ -116,10 +117,19 @@ h2 {
   justify-content: space-around;
   margin-top: 3rem; }
 
+.tex-grid {
+  width: 20vw; }
+
 @media (max-width: 768px) {
   .producto img {
     width: 40vw;
-    height: 40vw; } }
+    height: 40vw; }
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 12.5px; }
+  h2 {
+    font-size: 18px; } }
 
 input:focus {
   background-color: #222; }
